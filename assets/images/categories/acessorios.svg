@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Acessórios automotivos">
+  <defs>
+    <linearGradient id="bg-aces" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="accent-aces" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg-aces)"/>
+  <circle cx="480" cy="90" r="100" fill="#f97316" opacity="0.08"/>
+  <rect x="180" y="140" width="280" height="100" rx="20" fill="#374151" stroke="#4b5563" stroke-width="3"/>
+  <circle cx="250" cy="190" r="30" fill="url(#accent-aces)" opacity="0.7"/>
+  <rect x="310" y="165" width="120" height="12" rx="6" fill="#6b7280"/>
+  <rect x="310" y="190" width="90" height="12" rx="6" fill="#6b7280"/>
+  <rect x="310" y="215" width="60" height="12" rx="6" fill="#6b7280"/>
+  <circle cx="420" cy="100" r="24" fill="none" stroke="url(#accent-aces)" stroke-width="4"/>
+  <text x="40" y="320" font-family="Arial, sans-serif" font-weight="900" font-size="24" fill="#ffffff" opacity="0.15">ACESSÓRIOS</text>
+</svg>

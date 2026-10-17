@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Detalhamento automotivo">
+  <defs>
+    <linearGradient id="bg-detalhe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="shine-detalhe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent-detalhe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg-detalhe)"/>
+  <circle cx="500" cy="80" r="100" fill="#a855f7" opacity="0.08"/>
+  <path d="M120 240 Q200 180 320 200 Q440 220 520 180 L520 280 L120 280 Z" fill="#374151"/>
+  <path d="M140 230 Q220 170 320 190 Q420 210 500 175" fill="none" stroke="url(#accent-detalhe)" stroke-width="4" opacity="0.8"/>
+  <ellipse cx="320" cy="200" rx="180" ry="40" fill="url(#shine-detalhe)" transform="rotate(-15 320 200)"/>
+  <rect x="380" y="100" width="40" height="80" rx="8" fill="#4b5563" transform="rotate(20 400 140)"/>
+  <ellipse cx="400" cy="90" rx="28" ry="12" fill="url(#accent-detalhe)" opacity="0.6" transform="rotate(20 400 90)"/>
+  <text x="40" y="320" font-family="Arial, sans-serif" font-weight="900" font-size="20" fill="#ffffff" opacity="0.15">DETALHAMENTO</text>
+</svg>

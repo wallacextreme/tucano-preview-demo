@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Peças de suspensão">
+  <defs>
+    <linearGradient id="bg-susp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="accent-susp" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg-susp)"/>
+  <circle cx="500" cy="100" r="100" fill="#f97316" opacity="0.08"/>
+  <rect x="280" y="60" width="24" height="240" rx="12" fill="#4b5563"/>
+  <rect x="270" y="80" width="44" height="60" rx="6" fill="url(#accent-susp)" opacity="0.85"/>
+  <path d="M292 140 Q320 180 292 220 Q264 260 292 300" fill="none" stroke="url(#accent-susp)" stroke-width="16" stroke-linecap="round"/>
+  <ellipse cx="292" cy="310" rx="50" ry="16" fill="#374151"/>
+  <text x="40" y="320" font-family="Arial, sans-serif" font-weight="900" font-size="24" fill="#ffffff" opacity="0.15">SUSPENSÃO</text>
+</svg>
